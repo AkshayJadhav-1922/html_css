@@ -1,0 +1,95 @@
+.container{
+    height: 100vh;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    height: 100%;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: purple;
+}
+
+.box3 {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box4 {
+    background-color: palevioletred;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.custom_card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 24px 11px 22px #c7c5c569;
+}
+
+
+.searchbox{
+    width: 65%;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 2px 4px 19px #0000002e;
+    padding: 8px;
+    border: unset;
+}
+
+input:focus-visible{
+    outline: none;
+}
+
+.sarchParent{
+    display: flex;
+    justify-content: center;
+    /* gap: 4px; */
+}
+
+.btncls{
+    border-radius: 0px 10px 10px 0px;
+    background-color: #efecec;
+    box-shadow: 7px 2px 11px #8080809c;
+    border: unset;
+   
+}
+
+.searchresult{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    /* height: 100%; */
+}
+
+.cls1, .cls5{
+    grid-column: 1/4;
+}
+
+
+.gridclr{
+    box-shadow: 0px 5px 22px #c7c5c533;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    flex-grow: 1;
+}
+
+img{
+    height: 100%;
+}
+
+
